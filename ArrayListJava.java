@@ -21,7 +21,10 @@ public class ArrayListJava {
         listOne.add(56);
         listOne.add(17);
         listOne.add(15);
-
+        
+        //adding element to a particular index
+        listOne.set(5, 1000);
+        
         // getting value from array listOne
         System.out.println("Element at 0th index " + listOne.get(0));
 
